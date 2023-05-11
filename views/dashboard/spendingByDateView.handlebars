@@ -1,0 +1,37 @@
+<style>
+    canvas {
+        margin: 0 auto
+    }
+</style>
+
+<section class="section">
+    <h3>Total Expenses: <span id="totalExpenses"></span></h3>
+</section>
+
+<div class="total-expenses">
+    <h2 class="card-title">Total Expenses This Month</h2>
+    <canvas id="totalExpenseChart"></canvas>
+</div>
+
+<div class="filter">
+    <label for="date">Sort Date:</label>
+    <select name="date" id="selectDate" value="desc">
+        <option value="desc">Descending</option>
+        <option value="asc">Ascending</option>
+    </select>
+</div>
+
+<section class="transaction-history-section section">
+    <h2 class="section-title">Transaction Activity</h2>
+    <ul class="transaction-table">
+        <li class="table-head">
+            <h4>Date</h4>
+            <h4>Payee</h4>
+            <h4>Category</h4>
+            <h4>Amount</h4>
+            <h4>settings</h4>
+        </li>
+    </ul>
+</section>
+
+<script src="/js/spendingByDate.js"></script>
