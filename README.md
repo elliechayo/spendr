@@ -43,7 +43,7 @@ The following video shows the web application appearance and functionality once 
 ## Links
 <hr>
 
-[URL of the deployed application](https://git.heroku.com/spendr-app.git)
+[URL of the deployed application]( https://spendr-app.herokuapp.com/)
 
 [URL of the GitHub repository](https://github.com/elliechayo/spendr)
 
